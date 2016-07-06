@@ -1,0 +1,11 @@
+au.com.agic.apptesting
+au.com.agic.apptesting.constants
+au.com.agic.apptesting.exception
+au.com.agic.apptesting.junit
+au.com.agic.apptesting.profiles
+au.com.agic.apptesting.profiles.configuration
+au.com.agic.apptesting.profiles.dataset
+au.com.agic.apptesting.steps
+au.com.agic.apptesting.utils
+au.com.agic.apptesting.utils.impl
+au.com.agic.apptesting.zap
