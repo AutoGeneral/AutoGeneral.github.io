@@ -8,4 +8,5 @@ au.com.agic.apptesting.profiles.dataset
 au.com.agic.apptesting.steps
 au.com.agic.apptesting.utils
 au.com.agic.apptesting.utils.impl
+au.com.agic.apptesting.webdriver
 au.com.agic.apptesting.zap
