@@ -1,0 +1,24 @@
+{
+	"projects": [
+		{
+			"name": "Iridium Application Testing",
+			"url": "https://github.com/AutoGeneral/IridiumApplicationTesting",
+			"description": "The Iridium Application Testing tool has been designed to provide a way for automated scripts to interact with and validate the operation of our web based applications"
+		},
+		{
+			"name": "Mass deployment plugin for Atlassian Bamboo",
+			"url": "https://github.com/AutoGeneral/bamboo-mass-deployment",
+			"description": "This plugin provides a user-friendly interface to deploy/promote multiple deployment results from one environment to another"
+		},
+		{
+			"name": "Wildfly Deployment Tools",
+			"url": "https://github.com/AutoGeneral/wildfly-deployments-tools",
+			"description": "Set of tools to help us deploy to Wildfly in AWS environment "
+		},
+		{
+			"name": "FTL Warp Gate",
+			"url": "https://github.com/AutoGeneral/ftl-warp-gate",
+			"description": "Middleware application that sits between Atlassian Jira and Bamboo, reacts on remote calls, executes workflow transitions and operations needed for deployments"
+		}
+	]
+}
