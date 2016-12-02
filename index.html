@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="fragment" content="!">
+
+    <title>Auto & General Open Source Hub</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="src/vendor/trianglify.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="viewport">
+
+		<div class="header">
+			<img src="src/images/logo.png" alt="Auto & General logo" width="182" height="34">
+			<h1 class="header__description">Open Source Hub</h1>
+
+			<div class="header__image-container">
+				<div id="header-image">
+					<h2 class="header__tagline">
+						Source code behind flexible and innovative insurance
+					</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="projects">
+
+
+			<div class="project">
+
+				<h1 class="project__header">Iridium Application Testing</h1>
+
+				<a class="project__link" href="https://github.com/AutoGeneral/IridiumApplicationTesting">Repository</a>
+
+				<p class="project__description">The Iridium Application Testing tool has been designed to provide a way for automated scripts to interact with and validate the operation of our web based applications</p>
+
+			</div>
+
+
+			<div class="project">
+
+				<h1 class="project__header">Mass deployment plugin for Atlassian Bamboo</h1>
+
+				<a class="project__link" href="https://github.com/AutoGeneral/bamboo-mass-deployment">Repository</a>
+
+				<p class="project__description">This plugin provides a user-friendly interface to deploy/promote multiple deployment results from one environment to another</p>
+
+			</div>
+
+
+			<div class="project">
+
+				<h1 class="project__header">Wildfly Deployment Tools</h1>
+
+				<a class="project__link" href="https://github.com/AutoGeneral/wildfly-deployments-tools">Repository</a>
+
+				<p class="project__description">Set of tools to help us deploy to Wildfly in AWS environment </p>
+
+			</div>
+
+
+			<div class="project">
+
+				<h1 class="project__header">FTL Warp Gate</h1>
+
+				<a class="project__link" href="https://github.com/AutoGeneral/ftl-warp-gate">Repository</a>
+
+				<p class="project__description">Middleware application that sits between Atlassian Jira and Bamboo, reacts on remote calls, executes workflow transitions and operations needed for deployments</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+<script>
+    !(function () {
+        var container = document.getElementById('header-image');
+        var pattern = Trianglify({
+            width: container.offsetWidth,
+            height: container.offsetHeight
+        });
+        var color = pattern.opts.x_colors['7'];
+        var elements = document.getElementsByClassName('project');
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.borderColor = color;
+        }
+        container.style.backgroundImage = 'url("' + pattern.png() + '")';
+    })();
+</script>
+
+</html>
