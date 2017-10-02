@@ -6,6 +6,16 @@
 			"description": "The Iridium Application Testing tool has been designed to provide a way for automated scripts to interact with and validate the operation of our web based applications"
 		},
 		{
+			"name": "Zemog",
+			"url": "https://github.com/AutoGeneral/zemog-worker",
+			"description": "Distributed two-tier system to run scheduled automated Iridium end-to-end tests in AWS environment"
+		},
+		{
+			"name": "Fox",
+			"url": "https://github.com/AutoGeneral/fox",
+			"description": "Modular anomaly detection tool with endless possibilities to extend"
+		},
+		{
 			"name": "Mass deployment plugin for Atlassian Bamboo",
 			"url": "https://github.com/AutoGeneral/bamboo-mass-deployment",
 			"description": "This plugin provides a user-friendly interface to deploy/promote multiple deployment results from one environment to another"
